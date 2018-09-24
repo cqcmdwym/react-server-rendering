@@ -58,7 +58,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	(0, _reactDom.render)(_react2.default.createElement(_index2.default, window.__APP_INITIAL_STATE__), document.getElementById('root'));
+	(0, _reactDom.hydrate)(_react2.default.createElement(_index2.default, window.__APP_INITIAL_STATE__), document.getElementById('root'));
 
 /***/ }),
 /* 1 */
